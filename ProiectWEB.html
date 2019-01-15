@@ -1,0 +1,104 @@
+<html>
+    <head>
+        <title>Pagina mea</title>
+    
+        <script src="slider.js"> </script>
+            
+        <link rel="stylesheet" href="myStyle.css"  />
+
+    </head>
+
+    <body>
+        <div class="header-image">
+            <div class="header-text">
+              <h1 id="home">The car guys</h1>
+            </div>
+        </div>
+
+        <div class="space" style="padding: 1px;"></div>
+        <ul>
+
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#news">News</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+
+        <div class="space"></div>
+        
+        <section id="about">
+            <img name="slider" style="float:left;">
+            <h1 >About</h1>
+            <p style="margin-right:30px;"><b>The car guys</b>- leading sports and classic car exporter based in Japan is proud to announce the opening 
+                of its new JDM auto import and sales facilities in Tacoma , USA. Now you can get all the benefits of working directly with an exporter in 
+                Japan while enjoying the safety, security and ease of purchase that you have when working with a company here in the USA. 
+                Until now it was never as easy to import your dream JDM to the USA as it is today!<br>
+                With the opening of our own office in Tacoma, now we can import JDM cars at any major ports of the USA. The cars we import are 25 years
+                old and fully exempt from EPA and FMVSS regulations, making it 100% federally legal to drive in the US highways. Now, only though us you 
+                can buy your dream JDM car directly from Japanese dealers and auctions without ever having to worry about the passing through a mountain 
+                of red tape paperwork. Our office provides all the import and registrations services, and after the purchase arranges the delivery 
+                of your dream JDM car to your front door in the USA ready to be cruised around the highways of the US. 
+            </p>
+        </section>
+
+        <div class="space"></div>
+
+        <button onclick="playVid()" type="button" style="float:right;margin-right:40px;">Play Video</button>
+        <button onclick="pauseVid()" type="button" style="float:right;">Pause Video</button>
+        <div class="space" style="padding:1px;"></div>
+        <section id="news"> 
+            <video id="myVideo" style="float:right;" loop autoplay>
+                <source src="traffic.mp4" type="video/mp4">
+            </video>
+            <script src="playVideo.js"></script>
+            <h1 >News</h1>
+            <p style="margin-left:30px;"> <b>Subaru</b> is releasing yet another special high performance WRX STI that's only for its home, Japan. This time it's a
+                variant of the WRX STI Type RA called the Type RA-R. Though it looks very similar to the version we get in the U.S., it has some key differences.
+                Instead of the 310-horsepower 2.5-liter four-cylinder in ours, the RA-R has a 324-horsepower turbocharged 2.0-liter four-cylinder. It also produces
+                318 pound-feet of torque, a fair bit more than the 290 of ours.<br>
+                The Type RA-R also boasts additional weight savings. The company says it's about 66 pounds lighter than the WRX STI S208, another
+                special STI similar to our Type RA. That model was already lightened thanks to a carbon fiber roof among other additions. Interestingly, 
+                the Type RA-R doesn't appear to have the Bilstein suspension of the S208 or the U.S. Type RA. It does still have Brembo brakes front and rear,
+                though, with six-piston calipers up front and two-piston calipers in the back.
+            </p>
+        </section>
+        
+        <div class="space"></div>
+
+        <h1 id="contact" style="text-decoration: underline;">Contact</h1>
+        <table >
+            <tr>
+                <td>Street</td>
+                <td>3438  Hill Haven Drive</td>
+            <tr>
+                <td>City</td>
+                <td>Tacoma</td>
+            </tr>
+            <tr>
+                <td>State</td>
+                <td>Washington</td>
+            </tr>
+            <tr>
+                <td>City</td>
+                <td>Tacoma</td>
+            </tr>
+            <tr>
+                <td>Zip Code</td>
+                <td>64084</td>
+            </tr>
+            <tr>
+                <td>Phone Number</td>
+                <td>901-937-4356</td>
+            </tr>    
+        </table>
+        <div class="space"></div>
+           
+        
+        <div class="footer">
+            <p id="date_span"></p>
+        </div>
+        <script src="time.js"></script>
+
+
+    </body>
+</html>
